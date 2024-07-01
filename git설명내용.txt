@@ -8,3 +8,10 @@ git commit --amend -m '메시지 내용' -> 현재 HEAD에 있는 commit메시�
 git commit -a -m '메시지 내용' -> git add + git commit -m 기능
 
 branch
+
+merge 충돌시 해결방법 
+1.충돌된 라인을 원하는 내용으로 수정 -> 텍스트파일
+2.수정된 파일을 git add
+git commit 
+
+git remote -v : 원격 저장소 정보 보기
